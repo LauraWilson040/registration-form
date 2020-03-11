@@ -12,12 +12,16 @@
 </head>
 <body>
   <section class="contact">
+
     <div class="max-length">
       <h1>Want to go to Mars?</h1>
       <p>We’re looking for super-awesome human beings who want to make the long trek to Mars for the adventure of a lifetime.</p>
-      <p>Personal details</p>
+    </div>
 
-      <form class="push-0" method="POST" action="https://formspree.io/wils0845@algonquinlive.com">
+    <form class="push-0" method="POST" action="https://formspree.io/wils0845@algonquinlive.com">
+
+      <fieldset>
+        <legend>Personal details</legend>
 
         <div class="push">
           <label for="name">Name</label>
@@ -48,9 +52,12 @@
           <label for="address">Address</label>
           <input id="address" name="address">
         </div>
+      </fieldset>
+
+      <fieldset>
+        <legend>Mission statement</legend>
 
         <div class="push">
-          <p>Mission statement</p>
           <label for="details">Why do you want to go to Mars?</label>
           <textarea id="details" required></textarea>
         </div>
@@ -60,9 +67,10 @@
         </div>
 
         <input type="hidden" name="_subject" value="Request to join the mission">
+      </fieldset>
 
-      </form>
-    </div>
+    </form>
   </section>
+
 </body>
 </html>
