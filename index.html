@@ -3,6 +3,11 @@
 <head>
   <meta charset="utf-8">
   <title>Registration form</title>
+  <link href="css/grid.css" rel="stylesheet">
+  <link href="css/type.css" rel="stylesheet">
+  <link href="css/modules.css" rel="stylesheet">
+  <link href="css/main.css" rel="stylesheet">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
 </head>
 <body>
   <section class="contact">
@@ -40,10 +45,11 @@
 
         <div class="push">
           <label for="address">Address</label>
-          <input id="address" type="address" placeholder="123 South St." name="address" required>
+          <input id="address" name="address">
         </div>
 
         <div class="push">
+          <p>Mission statement</p>
           <label for="details">Why do you want to go to Mars?</label>
           <textarea id="details" placeholder="Request to join the mission" name="message" required></textarea>
 
