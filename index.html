@@ -5,27 +5,48 @@
   <title>Registration form</title>
 </head>
 <body>
+  <section class="contact">
+    <div class="max-length">
+      <h1>Want to go to Mars?</h1>
+      <p>We’re looking for super-awesome human beings who want to make the long trek to Mars for the adventure of a lifetime.</p>
+      <h2>Personal details</h2>
 
-  Want to go to Mars?
-  We’re looking for super-awesome human beings who want to make the long trek to Mars for the adventure of a lifetime.
+      <form class="push-0" method="POST" action="https://formspree.io/wils0845@algonquinlive.com">
+        <div class="push">
+          <label for="name">Name</label>
+          <input id="name" name="name" required>
+        </div>
+        <div class="push">
+          <label for="age">Age</label>
+          <input id="age" name="age" required>
+        </div>
+        <div class="push">
+          <label for="email">Email</label>
+          <input id="email" type="email" placeholder="me@me.com" name="email" required>
+        </div>
 
-  Personal details
-  Name
-  Age
-  Email
-  Physical fitness
-  - Super-human
-  - Fit as a fiddle
-  - Not terribly strong
-  - A little couch-potato-y
-  Address
+        Physical fitness
+        - Super-human
+        - Fit as a fiddle
+        - Not terribly strong
+        - A little couch-potato-y
 
-  Mission statement
-  Why do you want to go to Mars?
+        <div class="push">
+          <label for="address">Address</label>
+          <input id="address" type="address" placeholder="123 South St." name="address" required>
+        </div>
 
-  Register for the trip!
+        Mission statement
+        Why do you want to go to Mars?
 
-  Request to join the mission
+        Request to join the mission
+
+        <div class="push">
+          <button class="btn btn-light mega" type="submit">Register for the trip!</button>
+        </div>
+      </form>
+    </div>
+  </section>
 
 </body>
 </html>
